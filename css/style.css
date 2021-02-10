@@ -31,7 +31,8 @@ body{
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: url("../images/pigeon-background.JPEG"), #DDDDDD;
+  background-image: url("../images/pigeon-background.JPEG");
+  background-color: #DDDDDD;
   font-family: "Andika", sans-serif;
 }
 
@@ -71,15 +72,15 @@ td{
   color: #FFFFFF;
   min-width: 125px;
   padding: 10px;
-  vertical-align: middle;
+  text-align: center;
   margin: auto;
   text-transform: uppercase;
   background-color: #7e0820;
 }
 /*Req 6c*/
 .rowhead{
-  border-top: 2px solid #000000;
   border-right: 2px solid #000000;
+  border-top: 2px solid #000000;
 }
 
 /*Req 6d*/
