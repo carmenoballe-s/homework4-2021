@@ -63,6 +63,7 @@ a{
 /*Req 6a*/
 td{
   text-align: center;
+  vertical-align: middle;
   border-top: 2px solid #000000;
   padding: 10px;
 }
@@ -70,12 +71,12 @@ td{
 /*Req 6b*/
 .colhead{
   color: #FFFFFF;
+  background-color: #7e0820;
   min-width: 125px;
   padding: 10px;
   text-align: center;
-  margin: auto;
+  vertical-align: middle;
   text-transform: uppercase;
-  background-color: #7e0820;
 }
 /*Req 6c*/
 .rowhead{
@@ -109,12 +110,12 @@ thead tr:last-child th:last-child{
   border-top-right-radius: 10px;
 }
 
-tbody tr:last-child th:last-child{
-  border-bottom-right-radius: 10px;
-}
-
 tbody tr:last-child th:first-child{
   border-bottom-left-radius: 10px;
+}
+
+tbody tr:last-child th:last-child{
+  border-bottom-right-radius: 10px;
 }
 
 
